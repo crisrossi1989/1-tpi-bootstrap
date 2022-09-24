@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+section{
+    padding-bottom: 1.5%;
+    margin-bottom: 1%;
+}
+
+#navbar-top{
+    background-color: rgb(53,58,64);
+    margin:0px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: end;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    font-size: x-large;
+}
+#logo-codo-a-codo{
+    width: 150px;
+    height: auto;
+}
+#txt-icon{
+    font-size:x-large;
+}
+
+#banner-contenedor{
+    overflow:auto;
+    border-radius: 0%;
+}
+#banner-img{
+    background-image: linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0, 0.5)),url("./assets/img/ba1.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#banner-row{
+    margin: 0%;
+    padding: 0%;
+}
+#banner-col-2{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8%;
+    text-align: end;
+}
+#btn-comprar-tikets{
+    background-color: rgb(40,167,70);
+}
+
+#container-txt-top{
+    width: 100%;
+    padding-bottom: 0.5%;
+    text-align: center;
+}
+.txt-titulo-1{
+    font-size: medium;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom:0rem;
+}
+.txt-titulo-2{
+    font-size:xx-large;
+    font-style:normal;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin-bottom:0rem;
+}
+
+#cards-oradores{
+    margin: 0%;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#cards-oradores h5{
+    font-size: x-large;
+    padding-bottom: 0.5%;
+}
+
+#honolulu-card{
+    will-change: 100%;
+    background-color: rgb(53, 58, 64);
+    font-size: medium;
+    font-weight:lighter;
+}
+#honolulu-col-1{
+    align-items: center;
+    justify-content: center;
+}
+#honolulu-img{
+    object-fit: cover;
+    height: 100%; width: 100%;
+}
+#honolulu-col-2 .card-title{
+    padding-bottom: 0.5%;
+}
+#honolulu-col-2 .card-text{
+    padding-bottom: 0.5%;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+#form-orador{
+    width: 100%;
+}
+.txt-titulo-form{
+    text-align: center;
+    font-size: larger;
+}
+#form-coment{
+    margin-top: 2%;
+}
+#floatingTextarea2{
+    height: 200px;
+}
+#formulario{
+    padding-left: 12%;
+    padding-right: 12%;
+}
+#subrayado-ci {
+    border-bottom:1px dotted #9999CC;
+}
+#submit-form{
+    background-color: rgb(150,201,62);
+    border: none;
+    font-size: xx-large;
+}
+
+#navbar-bottom{
+    width: 100%;
+    background-color: rgb(30,68,89);
+    padding-left: 14%;
+    padding-right: 14%;
+    text-align: center;
+    align-items: center;
+    font-size:larger;
+}
+#navbar-bottom a{
+    color: aliceblue;
+    font-weight: normal;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
