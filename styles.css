@@ -30,7 +30,6 @@ section{
 }
 
 #banner-contenedor{
-    overflow:auto;
     border-radius: 0%;
 }
 #banner-img{
@@ -38,6 +37,7 @@ section{
     rgba(0,0,0, 0.5));
     background-repeat: no-repeat;
     object-fit: cover;
+    overflow:auto;
 }
 #banner-row{
     margin: 0%;
