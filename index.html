@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,15 +9,11 @@
     <meta name="keywords"
         content="codo a codo, conferencia, oradores, steve jobs, bill gates, ada lovelace, caba, Buenos Aires">
     <meta name="author" content="Cristian Alberto Rossi, crisrossi1989@gmail.com">
-    <title>TPI 1 FrontEnd CaC 2022 2C</title>
+    <title>TPI FrontEnd CaC 2022 2C</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-        </script>
+    <!-- CSS only 5.2.2 ÚLTIMA VERSIÓN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
@@ -31,10 +27,10 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#banner-conferencia">La conferencia</a>
+                    <a class="nav-link active" href="#banner-conferencia">La conferencia</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#los-oradores">Los oradores</a>
@@ -46,16 +42,16 @@
                     <a class="nav-link" href="#conviértete-en-orador">Conviértete en orador</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-success" href="#">Comprar tickets</a>
+                    <a class="nav-link text-success" href="#tickets">Comprar tickets</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <!--banner-palacio-aguas-corrientes-->
     <header>
+        <!--banner-palacio-aguas-corrientes-->
         <section id="banner-conferencia">
-            <div id="banner-contenedor" class="card text-bg-dark">
-                <img src="./img/ba1.jpg" class="card-img" alt="Palacio de Aguas Corrientes Bs As">
+            <div id="container-banner" class="card text-bg-dark d-flex">
+                <img src="img/ba1.jpg" class="card-img" alt="Palacio de Aguas Corrientes Bs As">
                 <div id="banner-img" class="card-img-overlay d-flex">
                     <div id="banner-row" class="row">
                         <div id="banner-col-1" class="col">
@@ -71,13 +67,13 @@
                                     estudiantes de Codo
                                     a Codo y los oradores de primer nivel que tenemos para tí. Te esperamos!
                                 </p>
-                                <div class="gap-3 d-md-flex justify-content-md-end">
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                                     <a href="#conviértete-en-orador" id="btn-quiero-ser-orador" type="button"
                                         class="btn btn-outline-light me-md-2 fs-5">Quiero
                                         ser orador</a>
-                                    <a href="#"><button id="btn-comprar-tikets" type="button"
-                                            class="btn btn-success fs-5">Comprar
-                                            tickets</button></a>
+                                    <a href="#tickets" id="btn-comprar-tikets" type="button"
+                                        class="btn btn-success fs-5">Comprar
+                                        tickets</a>
                                 </div>
                             </div>
                         </div>
@@ -89,14 +85,15 @@
     <main>
         <!--tarjetas-oradores-->
         <section id="los-oradores">
+            <!--título-->
             <div id="container-txt-top" class="container">
                 <p class="txt-titulo-1">conoce a los</p>
                 <p class="txt-titulo-2">oradores</p>
             </div>
-            <div id="cards-oradores" class="row row-cols-1 row-cols-md-3">
+            <div id="container-cards-oradores" class="row row-cols-1 row-cols-md-3">
                 <!--tarjeta-steve-jobs-->
                 <div class="col">
-                    <div class="card border-light h-100">
+                    <div class="card border-light">
                         <a href="#" target="_blank">
                             <img src="./img/steve.jpg" class="card-img-top" alt="foto Steve Jobs">
                         </a>
@@ -114,7 +111,7 @@
                 </div>
                 <!--tarjeta-bill-gates-->
                 <div class="col">
-                    <div class="card border-light h-100">
+                    <div class="card border-light">
                         <a href="#" target="_blank">
                             <img src="./img/bill.jpg" class="card-img-top" alt="foto Bill Gates">
                         </a>
@@ -132,7 +129,7 @@
                 </div>
                 <!--tarjeta-adda-lovelace-->
                 <div class="col">
-                    <div class="card border-light h-100">
+                    <div class="card border-light">
                         <a href="#" target="_blank">
                             <img src="./img/ada.jpeg" class="card-img-top" alt="foto Adda Lovelace">
                         </a>
@@ -152,7 +149,7 @@
         </section>
         <!--tarjeta-bsas-honolulu-->
         <section id="fecha-y-lugar">
-            <div id="honolulu-card" class="card mt-3">
+            <div id="container-honolulu-card" class="card mt-3">
                 <div class="row g-0">
                     <div id="honolulu-col-1" class="col-md-6 card-group">
                         <img src="./img/honolulu.jpg" class="img-fluid rounded-start" alt="foto Honolulu">
@@ -167,8 +164,7 @@
                                 sureste
                                 de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado
                                 consolidada que cubre toda la ciudad (aproximadamente 600km² de superficie).</p>
-                            <a href="#" target="_blank"
-                                class="btn btn-outline-light">Conoce más</a>
+                            <a href="#" target="_blank" class="btn btn-outline-light" id="btn-conoce-mas">Conoce más</a>
                         </div>
                     </div>
                 </div>
@@ -176,26 +172,29 @@
         </section>
         <!--formulario-conviertete-en-orador-->
         <section id="conviértete-en-orador">
-            <div id="form-orador" class="input-group flex-nowrap">
-                <form id="formulario" class="container" action="mailto:crisrossi1989@gmail.com" method="post"
+            <!--titulo-->
+            <div id="container-txt-top" class="container">
+                <p class="txt-titulo-1">conviérte en un</p>
+                <p class="txt-titulo-2">orador</p>
+            </div>
+            <!--formulario-oradores-->
+            <div id="container-form-orador" class="input-group">
+                <form id="formulario-oradores" class="container" action="crisrossi1989@gmail.com" method="post"
                     enctype="text/plain">
-                    <div id="container-txt-top" class="container">
-                        <p class="txt-titulo-1">conviérte en un</p>
-                        <p class="txt-titulo-2">orador</p>
-                    </div>
                     <p class="txt-titulo-form">Anótate como orador para dar una <span id="subrayado-ci">charla
                             ignite</span>. Cuéntanos de qué quieres
                         hablar!</p>
-                    <div class="row">
-                        <div class="col">
+                    <div class="row g-2">
+                        <div class="col-md">
                             <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
                         </div>
-                        <div class="col">
+                        <div class="col-md">
                             <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
                         </div>
                     </div>
                     <div id="form-coment" class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea2"></textarea>
                         <label for="floatingTextarea2" class="text-muted text-start">
                             <p class="fs-5">Sobre qué quieres hablar?</p>
                         </label>
@@ -204,24 +203,26 @@
                         </span>
                     </div>
                     <div class="d-grid gap-2">
-                        <button id="submit-form" class="btn btn-success" type="submit">Enviar</button>
+                        <button id="btn-enviar" class="btn btn-success" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
         </section>
+        <!--NUEVA-SECCIÓN-tickets (incluida en TPI JS)-->
+        <section id="tickets"></section>
     </main>
-    </footer>
     <!--navbar-bottom-->
-    <div id="navbar-bottom" class="nav nav-pills nav-justified">
-        <a class="nav-link" href="#">Preguntas Frecuentes</a>
-        <a class="nav-link" href="#">Contactanos</a>
-        <a class="nav-link" a href="#">Prensa</a>
-        <a class="nav-link" a href="#">Conferencia</a>
-        <a class="nav-link" a href="#">Términos y condiciones</a>
-        <a class="nav-link" a href="#">Privacidad</a>
-        <a class="nav-link" a href="#">Estudiantes</a>
-    </div>
     <footer>
+        <div id="navbar-bottom" class="nav nav-pills nav-justified flex-column flex-sm-row">
+            <a class="nav-link" href="#">Preguntas frecuentes</a>
+            <a class="nav-link" href="#">Contáctanos</a>
+            <a class="nav-link" href="#">Prensa</a>
+            <a class="nav-link" href="#">Conferencias</a>
+            <a class="nav-link" href="#">Términos y condiciones</a>
+            <a class="nav-link" href="#">Privacidad</a>
+            <a class="nav-link" href="#">Estudiantes</a>
+        </div>
+    </footer>
 </body>
 
 </html>
