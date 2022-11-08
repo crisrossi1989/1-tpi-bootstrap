@@ -1,2 +1,3 @@
 # 1-tpi-bootstrap
-Trabajo Práctico Integrador - Unidad 6 (Bootsrap) - JAVA-FRONT END 2022 2 (Comision 22567)
+Trabajo Práctico Integrador (Bootsrap)
+- CaC-JAVA FS- 22567 (Codo a Codo 4.0 2C 2022)
